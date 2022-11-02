@@ -3,6 +3,7 @@ import { Sequelize } from "sequelize";
 import path from "path";
 
 
+
 const User = require('./database/databaseSettings')
 const sequelize = require('./database/databaseSettings');
 
