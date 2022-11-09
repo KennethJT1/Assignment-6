@@ -5,7 +5,8 @@
   "scripts": {
     "test": "node ./bin/www",
     "start": "node ./build/app.js",
-    "dev": "nodemon ./build/app.js"
+    "dev": "nodemon ./build/app.js",
+    "build": "tsc"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
